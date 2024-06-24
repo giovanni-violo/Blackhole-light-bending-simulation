@@ -1,5 +1,5 @@
 # Blackhole-light-bending-simulation
-A simulation of gravitational lensing due to blackhole space distortion done by exploiting GPU's versatility in C++ CUDA platform. 
+A simulation of gravitational lensing due to blackhole space distortion done by exploiting GPU's versatility in C++ CUDA platform and OpenCV for the rendering part. 
 Done in collaboration with @vinz321.
 
 # 1 Introduction
