@@ -57,8 +57,8 @@ Return raycast(hdri, ray.dir)
 ## 3.1 Pseudo-Code
 
 The most intuitive way of calculating the render is to cast one single ray per pixel and then start the ray-marching process. The main limitation to the algorithm is that each step n depends on the previous step n-1 forcing the algorithm to be sequential for each thread in the GPU.
-
-> Create scene
+```cpp
+ Create scene
 Load scene to device memory
 Call render kernel per-pixel:
 		Initialize ray
@@ -69,7 +69,7 @@ Call render kernel per-pixel:
 		Ray.dir=deflect_ray(next_origin, blackhole)
 		Ray.origin=next_origin
 		Return raycast(hdri, ray.dir)
-> 
+``` 
 
 Due to the nature of the problem it was not possible to avoid the for-loop, which is a serious disadvantage to the parallel calculation, it slows down considerably the calculations due to the waits caused by loop iterations and high branching factor that causes divergence in threads making the SIMD paradigm hard to execute.
 
