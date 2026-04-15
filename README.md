@@ -1,6 +1,7 @@
 # Blackhole-light-bending-simulation
 A simulation of gravitational lensing due to blackhole space distortion done by exploiting GPU's versatility in C++ CUDA platform and OpenCV for the rendering part. 
 Done in collaboration with @vinz321.
+![Blackhole-light-bending-simulation/imgs/blackhole.gif](https://github.com/giovanni-violo/Blackhole-light-bending-simulation/blob/main/imgs/blackhole.gif)
 
 # 1 Introduction
 
