@@ -3,7 +3,10 @@ A simulation of gravitational lensing due to blackhole space distortion done by 
 Done in collaboration with @vinz321.
 
 
-![Blackhole-light-bending-simulation/imgs/blackhole.gif](https://github.com/giovanni-violo/Blackhole-light-bending-simulation/blob/main/imgs/blackhole.gif)
+<p align="center">
+  <img src="https://github.com/giovanni-violo/Blackhole-light-bending-simulation/blob/main/imgs/blackhole.gif" 
+       alt="Black Hole Light Bending Simulation">
+</p>
 
 # 1 Introduction
 
